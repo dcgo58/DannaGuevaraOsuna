@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="estilos.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <title>contacto</title>
+    </head>
+    <body>
+        
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <ul>
+                <li><a href="index.html">Index<span style='font-size:10px;'>&#127924;</span></a></li>
+                <li><a href="bio.html">Biografía<span style='font-size:10px;'>&#128240;</span></a></li>
+                <li><a href="music.html">Música<span style='font-size:10px;'>&#127911;</span></a></li> 
+                <li><a  href="fotos.html">Fotos<span style='font-size:10px;'>&#127909;</span></a></li>
+                <li><a  href="parientes.html">Parientes<span style='font-size:10px;'>&#128101;</span></a></li>
+                <li><a  href="contacto.html">Formulario<span style='font-size:10px;'>&#128221;</span></a></li>
+                <li><a  href="TablaC.html">Tablas<span style='font-size:10px;'>&#128224;</span></a></li>
+              </ul>
+          </div>
+        
+          <h1>Contacto</h1>
+        <div class="jumbotron">
+
+            <form action="mailto:21325050510645@cbtis051.edu.mx" method="post">
+                <input type="hidden" name="tipoForm" id="tipoForm" value="formx43-2">
+
+                <label for="fname">Nombre(s): </label><br>
+                <input type="text" id="fname" name="lname" size="40" maxlength="40" title="Three letter country code" placeholder="Nombre(s)" autofocus>
+                <br><br>
+                <label for="fapellidop">Apellido paterno: </label><br>
+                <input type="text" id="fapellidop" name="fapellidop" size="40" maxlength="40" title="Three letter country code" placeholder="Apellido paterno">
+                <br><br>
+                <label for="fapellidom">Apellido materno: </label><br>
+                <input type="text" id="fapellidom" name="fapellidom" size="40" maxlength="40" title="Three letter country code" placeholder="Apellido materno">
+                <br><br>
+    
+                <label for="fpassword">Contraseña: </label><br>
+                <input type="password" id="fpassword" name="fpassword">
+                <br><br>
+
+                <label for="fcorreo">Correo: </label><br>
+                <input type="email" id="fcorreo" name="fcorreo" placeholder="usuario@correo.com">
+                <br><br>
+
+                <label for="fnacimiento">Fecha de nacimiento: </label>
+                <input type="date" id="fnacimiento" name="fnacimiento" min="1900-01-01">
+                <br><br>
+
+                <label for="fcabello">Color de cabello: </label><br>
+                <input type="color" id="fcabello" name="fcabello" value="000000">
+                <br><br>
+
+                <label for="fpromedio">¿Cuál es tu promedio escolar? </label>
+                <input type="number" id="fpromedio" name="fpromedio" min="1" max="10" step="0.1" value="8.0"><br><br>
+
+                <label for="fgusto">Grado de satisfacción por la escuela: </label>
+                <input type="range" id="fgusto" name="fgusto"><br><br>
+
+                <label for="ftelefono">Número de teléfono: </label> <!--+52 669-990-0301-->
+                <input type="tel" id="ftelefono" name="ftelefono" pattern="[0-9]{3} [0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+
+                <label for="ffoto">Elige una foto para tu perfil: </label>
+                <input type="file" id="ffoto" name="ffoto"><br><br>
+
+                <label for="lgenero">Genero:</label><br>
+                <input type="radio" id="Masculino" name="Genero" value="Masculino">
+                <label for="Masculino">Masculino</label><br>
+                <input type="radio" id="Femenino" name="Genero" value="Femenino"> 
+                <label for="Femenino">Femenino</label><br><br>
+
+                <label for="Comida">Comida favorita</label><br>
+                <input type="checkbox" id="Preferencia1" name="Preferencia1" value="Sushi">
+                <label for="Preferencia1">Sushi</label>
+                <br>
+                <input type="checkbox" id="Preferencia2" name="Preferencia2" value="Pizza">
+                <label for="Preferencia2">Pizza</label>
+                <br>
+                <input type="checkbox" id="Preferencia3" name="Preferencia3" value="Tacos">
+                <label for="Preferencia3">Tacos</label><br><br>
+                
+                <div>
+                    <label for="estado">Elige tu estado: </label><br>
+                    <select name="estado" id="estado">
+                        <option value="Aguascalientes">Aguascalientes</option>
+                        <option value="Baja California">Baja California</option>
+                        <option value="Baja California Sur">Baja California Sur</option>
+                        <option value="Campeche">Campeche</option>
+                        <option value="Coahuila">Coahuila</optio>
+                        <option value="Colima">Colima</option>
+                        <option value="Chiapas">Chiapas</option>
+                        <option value="Chihuahua">Chihuahua</option>
+                        <option value="Durango">Durango</option>
+                        <option value="Distrito Federal">Distrito Federal</optio>
+                        <option value="Guanajuato">Guanajuato</optio>
+                        <option value="Guerrero">Guerrero</option>
+                        <option value="Hidalgo">Hidalgo</option>
+                        <option value="Jalisco">Jalisco</option>
+                        <option value="México">México</option>
+                        <option value="Michoacán">Michoacán</option>
+                        <option value="Morelos">Morelos</option>
+                        <option value="Nayarit">Nayarit</option>
+                        <option value="Nuevo León">Nuevo León</optio>
+                        <option value="Oaxaca">Oaxaca</option>
+                        <option value="Puebla">Puebla</option>
+                        <option value="Querétaro">Querétaro</option>
+                        <option value="Quintana Roo" >Quintana Roo</option>
+                        <option value="San Luis Potosí">San Luis Potosí</option>
+                        <option value="Sinaloa">Sinaloa</option>
+                        <option value="Sonora">Sonora</option>
+                        <option value="Tabasco">Tabasco</option>
+                        <option value="Tamaulipas">Tamaulipas</option>
+                        <option value="Tlaxcala">Tlaxcala</option>
+                        <option value="Veracruz">Veracruz</option>
+                        <option value="Yucatán">Yucatán</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                     <label for="Ciudad">Escribe o elige tu ciudad: </label><br>
+                            <input list="Ciudad">
+                            <datalist id="Ciudad">
+                              <option value="Los Mochis">
+                              <option value="Culiacán">
+                              <option value="Mazatlán">
+                              <option value="Concordia">
+                              <option value="Escuinapa">
+                            </datalist>
+                </div>
+
+                <br>
+                <label for="Comentarios">Comentarios: </label><br>
+                <textarea name="Comentarios" cols="50" rows="5"></textarea>
+                <br>
+                
+                <br>
+                <input type="reset"> <input type="Submit" value="Enviar"> <input type="image" src="enviar.png" width="20px" height="15px">
+            </form>
+        </div>
+    </body>
+</html>
